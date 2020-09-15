@@ -1,0 +1,409 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-details-with-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11838045300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "Booking.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20491537300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter \"VigneshwarG\",\"33VA7P\",\"London\",\"Hotel Sunshine\",\"Deluxe\",\"1 - One\",\"23/08/2020\",\"24/08/2020\",\"1 - One\",\"0 - None\",\"Vigneshwara\",\"Ganesan\",\"36 chennai\",\"1234567891234567\",\"VISA\",\"August\",\"2022\"and\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VigneshwarG\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"33VA7P\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"23/08/2020\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 122
+                },
+                {
+                  "val": "\"Vigneshwara\"",
+                  "offset": 133
+                },
+                {
+                  "val": "\"Ganesan\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"36 chennai\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 170
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 189
+                },
+                {
+                  "val": "\"August\"",
+                  "offset": 196
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 205
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 214
+                }
+              ],
+              "location": "Booking.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8174884600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the booking id",
+            "match": {
+              "location": "Booking.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3899062000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "Booking.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-details-with-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6990287600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "Booking.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18736128200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter \"VigneshwarG\",\"33VA7P\",\"London\",\"Hotel Sunshine\",\"Deluxe\",\"1 - One\",\"23/08/2020\",\"25/08/2020\",\"1 - One\",\"0 - None\",\"Vigneshwara\",\"Ganesan\",\"36 chennai\",\"1234567891234567\",\"VISA\",\"August\",\"2022\"and\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VigneshwarG\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"33VA7P\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"23/08/2020\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 122
+                },
+                {
+                  "val": "\"Vigneshwara\"",
+                  "offset": 133
+                },
+                {
+                  "val": "\"Ganesan\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"36 chennai\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 170
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 189
+                },
+                {
+                  "val": "\"August\"",
+                  "offset": 196
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 205
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 214
+                }
+              ],
+              "location": "Booking.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8137197700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the booking id",
+            "match": {
+              "location": "Booking.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3944214600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "Booking.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-details-with-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6874368400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "Booking.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19647913200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter \"VigneshwarG\",\"33VA7P\",\"London\",\"Hotel Sunshine\",\"Deluxe\",\"1 - One\",\"23/08/2020\",\"24/08/2020\",\"1 - One\",\"0 - None\",\"Vigneshwara\",\"Ganesan\",\"36 chennai\",\"1234567891234567\",\"VISA\",\"August\",\"2022\"and\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VigneshwarG\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"33VA7P\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"23/08/2020\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 122
+                },
+                {
+                  "val": "\"Vigneshwara\"",
+                  "offset": 133
+                },
+                {
+                  "val": "\"Ganesan\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"36 chennai\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 170
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 189
+                },
+                {
+                  "val": "\"August\"",
+                  "offset": 196
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 205
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 214
+                }
+              ],
+              "location": "Booking.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8217959700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the booking id",
+            "match": {
+              "location": "Booking.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4060811500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "Booking.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin functionalities",
+    "description": "",
+    "id": "verifying-adactin-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
